@@ -16,22 +16,90 @@ tlačítko Facebook aktivní: #2b406e
 
 body {
     background-color: #b2bec3;
+    padding-top: 150px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .box {
-    padding-top: 150px;
     background-color: white;
     width: 550px;
-    height: 550px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
 }
 
 .box {
-    position: relative;
-    left: 434px;
-    top: 275px;
+    position: relative;  
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+p {
+  font-size: 18px
+}
+
+h1 {
+    color: #d63031;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 
 
-p {
-    font-size: 18px
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.foto {
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.432);
+}
+
+.foto {
+    position: absolute;
+    right: -75px;
+    top: -75px;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.twitter a:hover {
+    background-color: #0b7bc1;
+    border-radius: 5px;
+}
+
+.facebook a:hover {
+    background-color: #2b406e;
+    border-radius: 5px;
+}
+
+.twitter a {
+    padding: 10px 0;
+    display: block;
+}
+
+.facebook a {
+    padding: 10px 0;
+    display: block;
 }
