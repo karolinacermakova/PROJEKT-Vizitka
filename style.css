@@ -14,3 +14,24 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+    background-color: #b2bec3;
+}
+
+.box {
+    padding-top: 150px;
+    background-color: white;
+    width: 550px;
+    height: 550px;
+}
+
+.box {
+    position: relative;
+    left: 434px;
+    top: 275px;
+}
+
+
+p {
+    font-size: 18px
+}
